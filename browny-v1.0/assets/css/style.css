@@ -121,7 +121,7 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #43a7e1;
+    background-color: #ffffff;
     border: none;
 }
 
@@ -137,7 +137,7 @@ nav.navbar.bootsnav {
     color: #030303;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 57px;
+    padding: 26px 0px 26px;
     text-transform: uppercase;
 }
 /*.navbar-brand*/
@@ -211,7 +211,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb1f9;}
 }
 
 .container{
-    margin-right:5vh;
+    /* margin-right:5vh; */
     display: block;
     align-items: center;
 }
@@ -498,5 +498,75 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+
+.logo{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    color: #0a0a0a;
+}
+
+.logo:hover{
+
+}
+
+.icons-navbar{
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+.empty-box{
+  width: 1000px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  background-color: transparent; /* The box is empty and transparent */
+}
+
+.empty-box1{
+  width: 100vw; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-color: transparent;
+}
+
+.empty-box2{
+    width: 100vw; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: transparent;
+  }
+
+.empty-box3{
+    width: 100vw; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: transparent;
+  }
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 12px;
+    align-self: center;
+    position: relative;
+    padding: 14px 40px;
+  }
+  
+.button1:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+.container1 { 
+  height: 40px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /*========================Thank you=================
