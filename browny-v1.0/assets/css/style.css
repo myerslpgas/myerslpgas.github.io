@@ -137,7 +137,7 @@ nav.navbar.bootsnav {
     color: #030303;
     font-size: 20px;
     font-weight: 600;
-    padding: 26px 0px 26px;
+    padding: 15px 0px 26px;
     text-transform: uppercase;
 }
 /*.navbar-brand*/
@@ -507,14 +507,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #0a0a0a;
 }
 
-.logo:hover{
-
-}
-
 .icons-navbar{
     position: relative;
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
 }
 
 .empty-box{
