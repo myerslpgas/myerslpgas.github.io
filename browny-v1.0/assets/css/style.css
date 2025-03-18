@@ -218,18 +218,46 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb1f9;}
 
 
 .about-content{
-    width: 60vw;
-    align-items: center;
-    display:block;
-    align-items: center;
+    text-align: center;
 }
 .about-para{
     font-size: medium;
-    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
 }
 .about-span{
     font-size: medium;
     color:#2cb1f9;
+}
+@media only screen and (max-width: 1200px) {
+    .about-para {
+        max-width: 600px; /* adjust the maximum width for larger screens */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-para {
+        max-width: 500px; /* adjust the maximum width for medium screens */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-para {
+        max-width: 400px; /* adjust the maximum width for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .about-para {
+        max-width: 300px; /* adjust the maximum width for mobile screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .about-para {
+        max-width: 200px; /* adjust the maximum width for very small screens */
+    }
 }
 
 /*-------------------------------------
@@ -391,7 +419,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .contact {
     background: #f9fbfd;
-    padding: 50px 0 100px;
+    padding: 50px 0;
 }
 .single-contact-box {padding-top: 100px;}
 
@@ -500,12 +528,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     100%  {bottom:7px;}
 }
 
-.logo{
+/* .logo{
     position: relative;
     height: 70px;
     width: 70px;
     color: #0a0a0a;
-}
+} */
 
 .icons-navbar{
     position: relative;
@@ -565,4 +593,141 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-heading h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section-heading h4 {
+    font-size: 18px;
+    color: #666;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.single-contact-box {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 40px);
+}
+
+.contact-add-head {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-add-head h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact-add-info {
+    padding: 20px;
+}
+
+.single-contact-add-info {
+    margin-bottom: 20px;
+}
+
+.single-contact-add-info h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.single-contact-add-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 1200px) {
+    .single-contact-box {
+        width: calc(50% - 40px);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .single-contact-box {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .section-heading h1 {
+        font-size: 24px;
+    }
+    
+    .section-heading h4 {
+        font-size: 14px;
+    }
+    
+    .single-contact-box {
+        padding: 10px;
+    }
+    
+    .contact-add-head {
+        padding: 5px;
+    }
+    
+    .contact-add-info {
+        padding: 10px;
+    }
+}
+
+
+.navbar-header a.navbar-brand {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-header a.navbar-brand img.logo {
+    height: auto;
+    margin: 10px 0; /* adjust the margin as needed */
+    max-width: 60px; /* adjust the max-width as needed */
+}
+
+/* Make the logo responsive on smaller screens */
+@media only screen and (max-width: 768px) {
+    .navbar-header a.navbar-brand img.logo {
+        max-width: 60px; /* adjust the width as needed */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-header a.navbar-brand img.logo {
+        max-width: 60px; /* adjust the width as needed */
+    }
+}
+
 /*========================Thank you=================
