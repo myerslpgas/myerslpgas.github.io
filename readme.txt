@@ -1,5 +1,5 @@
 
-# [Myers LP Gas Inc.](https://www.myerslpgas.github.io)
+# [Myers LP Gas Inc.](https://myerslpgas.github.io/)
 
 ## A brief history:
 
