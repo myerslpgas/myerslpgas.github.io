@@ -8,4 +8,5 @@ Myers L.P. Gas, Inc. was established by Steve Myers in 2001. Steve, being a farm
 Since then, Myers L.P. Gas, Inc. has grown into a 3,500 customer base energy company with three locations (two in Indiana and one in Illinois). Myers L.P. Gas, Inc. has a fleet of six delivery trucks, one boom truck, and multiple service trucks to serve its customers quickly and efficiently.
 
 "Our goal at Myers L.P. Gas, Inc. is to provide propane to our customers safely and economically, with service that is second to none."
+
 -Steve Myers
